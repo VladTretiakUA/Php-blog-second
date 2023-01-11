@@ -1,0 +1,23 @@
+{
+    "name": "user/htdocs",
+    "description": "Blog on PHP and MySQL",
+    "type": "project",
+    "authors": [
+        {
+            "name": "VladTretiakUA",
+            "email": "panzervlad3@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "dev-master",
+        "twig/twig": "3.x-dev",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Blog\\": "src"
+      }
+    }
+}
